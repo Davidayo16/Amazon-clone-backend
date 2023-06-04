@@ -1,6 +1,6 @@
 const products = [
   {
-    name: "Unleash Sonic Excellence: Shop Headphones for Superior Sound",
+    name: "Superior Sound: Shop Sonic Excellence Headphones.",
     image: [
       { img: "/images/headphone3.png" },
       { img: "/images/headphone2.png" },
@@ -112,12 +112,12 @@ const products = [
     },
   },
   {
-    name: "Level Up Your Gaming Experience: Discover Our Ultimate Game Kit",
+    name: "Elevate Gaming: Find Ultimate Game Kit Today.",
     image: [
       { img: "/images/kit1.png" },
-      { img: "/images/kit2.png" },
+      { img: "/images/kit2.jpg" },
       { img: "/images/kit1.png" },
-      { img: "/images/kit2.png" },
+      { img: "/images/kit2.jpg" },
     ],
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
     Lorem Ipsum has been the industry's standard dummy 
@@ -265,12 +265,12 @@ const products = [
   },
 
   {
-    name: "Gaming pad Bulk 10 pack multi colored",
+    name: "Kit pad Bulk 10 pack multi colored",
     image: [
       { img: "/images/kit2.jpg" },
+      { img: "/images/kit1.png" },
       { img: "/images/kit2.jpg" },
-      { img: "/images/kit2.jpg" },
-      { img: "/images/kit2.jpg" },
+      { img: "/images/kit1.png" },
     ],
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
     Lorem Ipsum has been the industry's standard dummy 
@@ -345,7 +345,7 @@ const products = [
   },
 
   {
-    name: "Stay Cool and Stylish: Discover Our Trendy Shorts Collection",
+    name: "Cool Style: Explore Our Trendy Shorts Collection",
     image: [
       { img: "/images/short1.png" },
       { img: "/images/short2.png" },
@@ -369,7 +369,7 @@ const products = [
     },
   },
   {
-    name: "Stay Cool and Stylish: Discover Our Trendy Shorts Collection",
+    name: "Cool Style: Explore Our Trendy Shorts Collection.",
     image: [
       { img: "/images/short2.png" },
       { img: "/images/short1.png" },
@@ -394,7 +394,7 @@ const products = [
     },
   },
   {
-    name: "Style and Comfort Combined: Explore Our Premium Shirt Collection",
+    name: "Style & Comfort: Explore Premium Shirt Collection",
     image: [
       { img: "/images/shirt1.png" },
       { img: "/images/shirt2.png" },
@@ -419,7 +419,7 @@ const products = [
   },
 
   {
-    name: "Elevate Your Style with Our Exceptional Shirt Collection",
+    name: "Elevate Style: Discover Exceptional Shirt Collection",
     image: [
       { img: "/images/shirt2.png" },
       { img: "/images/shirt1.png" },
