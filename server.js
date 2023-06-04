@@ -13,6 +13,7 @@ import orderRouter from "./Routes/OrderRoute.js";
 import stripeRouter from "./Routes/Stripe.js";
 import blogRoute from "./Routes/BlogRoute.js";
 import cors from "cors";
+import path from "path";
 
 dotenv.config();
 
@@ -24,6 +25,13 @@ app.use(morgan());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 // app.use(cors())
+
+app.use(express.static(path.join(__dirname, "frontend", "build")));
+
+// Handle all other routes and serve the index.html file
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "frontend", "build", "index.html"));
+});
 
 app.use("/api/import", importData);
 app.use("/api/products", productRoute);
