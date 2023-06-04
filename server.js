@@ -13,6 +13,8 @@ import orderRouter from "./Routes/OrderRoute.js";
 import stripeRouter from "./Routes/Stripe.js";
 import blogRoute from "./Routes/BlogRoute.js";
 import cors from "cors";
+import { fileURLToPath } from "url";
+import path, { dirname } from "path";
 
 dotenv.config();
 
@@ -38,12 +40,24 @@ app.get("/api/config/paypal", (req, res) => {
 app.use(notFound);
 app.use(errorHandler);
 
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+// Serve static files from the React app
+app.use(express.static(path.join(__dirname, "..", "client", "build")));
+
+// Catch-all route handler for non-API routes
+app.get("/*", (req, res) => {
+  res.sendFile(path.join(__dirname, "..", "client", "build", "index.html"));
+});
+
 const PORT = process.env.PORT || 1000;
 const start = async () => {
   try {
     await connectDatabase(process.env.MONGO_URL);
     app.listen(PORT, console.log(`server is running on port ${PORT}.......`));
     console.log("Database connected");
+    console.log("Directory:", path.join(__dirname, "..", "client", "build"));
   } catch (error) {
     console.log(error);
   }
