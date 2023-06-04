@@ -284,7 +284,7 @@ const products = [
     isFeatured: true,
     isBest: true,
     properties: {
-      capacity: "2GB",
+      capacity: "6GB",
       Style: "Alarm clock",
       colour: "white",
       Ram: "5gb",
