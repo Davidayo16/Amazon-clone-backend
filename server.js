@@ -29,11 +29,10 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 // Serve static assets
-app.use(express.static(join(__dirname, "..", "frontend", "build")));
+app.use(express.static(join("/opt/render/project/frontend/build")));
 
-// Handle all other routes and serve the index.html file
 app.get("*", (req, res) => {
-  res.sendFile(join(__dirname, "..", "frontend", "build", "index.html"));
+  res.sendFile(join("/opt/render/project/frontend/build", "index.html"));
 });
 
 app.use("/api/import", importData);
