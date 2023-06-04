@@ -13,9 +13,6 @@ import orderRouter from "./Routes/OrderRoute.js";
 import stripeRouter from "./Routes/Stripe.js";
 import blogRoute from "./Routes/BlogRoute.js";
 import cors from "cors";
-import { fileURLToPath, URL } from "url";
-import fs from "fs";
-import { dirname, join } from "path";
 
 dotenv.config();
 
