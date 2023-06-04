@@ -14,6 +14,7 @@ import stripeRouter from "./Routes/Stripe.js";
 import blogRoute from "./Routes/BlogRoute.js";
 import cors from "cors";
 import { fileURLToPath, URL } from "url";
+import fs from "fs";
 import { dirname, join } from "path";
 
 dotenv.config();
@@ -24,16 +25,6 @@ app.use(cors());
 app.use(morgan());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
-
-// Serve static assets
-app.use(express.static(join("/opt/render/project/frontend/build")));
-
-app.get("*", (req, res) => {
-  res.sendFile(join("/opt/render/project/frontend/build", "index.html"));
-});
 
 app.use("/api/import", importData);
 app.use("/api/products", productRoute);
