@@ -44,11 +44,11 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 // Serve static files from the React app
-app.use(express.static(path.join(__dirname, "..", "client", "build")));
+app.use(express.static(path.join(__dirname, "..", "frontend", "build")));
 
 // Catch-all route handler for non-API routes
 app.get("/*", (req, res) => {
-  res.sendFile(path.join(__dirname, "..", "client", "build", "index.html"));
+  res.sendFile(path.join(__dirname, "..", "frontend", "build", "index.html"));
 });
 
 const PORT = process.env.PORT || 1000;
@@ -57,7 +57,7 @@ const start = async () => {
     await connectDatabase(process.env.MONGO_URL);
     app.listen(PORT, console.log(`server is running on port ${PORT}.......`));
     console.log("Database connected");
-    console.log("Directory:", path.join(__dirname, "..", "client", "build"));
+    console.log("Directory:", path.join(__dirname, "..", "frontend", "build"));
   } catch (error) {
     console.log(error);
   }
