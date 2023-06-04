@@ -56,7 +56,7 @@ const products = [
     },
   },
   {
-    name: "Ultimate Sound: Premium Headphones for Immersive Audio",
+    name: "Ultimate Sound: Headphones for Immersive Audio",
     image: [
       { img: "/images/game3.png" },
       { img: "/images/game1.png" },
@@ -85,7 +85,7 @@ const products = [
   },
 
   {
-    name: "Premium Sound On-The-Go: Explore Our Headphone Collection",
+    name: "Sound On-The-Go: Explore Our Headphone Collection",
     image: [
       { img: "/images/game2.png" },
       { img: "/images/gaming.png" },
@@ -115,9 +115,9 @@ const products = [
     name: "Elevate Gaming: Find Ultimate Game Kit Today.",
     image: [
       { img: "/images/kit1.png" },
-      { img: "/images/kit2.jpg" },
       { img: "/images/kit1.png" },
-      { img: "/images/kit2.jpg" },
+      { img: "/images/kit1.png" },
+      { img: "/images/kit1.png" },
     ],
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
     Lorem Ipsum has been the industry's standard dummy 
@@ -137,7 +137,7 @@ const products = [
     },
   },
   {
-    name: "Xbox: Unleash the Power of Gaming",
+    name: "Unleash the Power of Gaming with Xbox",
     image: [
       { img: "/images/xbox1.png" },
       { img: "/images/xbox2.png" },
@@ -162,7 +162,7 @@ const products = [
     },
   },
   {
-    name: "Unleash Gaming's Power with Xbox",
+    name: "Unleash the Power of Gaming with Xbox",
     image: [
       { img: "/images/xbox2.png" },
       { img: "/images/xbox1.png" },
@@ -187,7 +187,7 @@ const products = [
     },
   },
   {
-    name: "Unleash Gaming Power with Xbox",
+    name: "Unleash the Power of Gaming with Xbox",
     image: [
       { img: "/images/xbox4.png" },
       { img: "/images/xbox3.png" },
@@ -213,7 +213,7 @@ const products = [
     },
   },
   {
-    name: "Unleash Gaming Power with Xbox",
+    name: "Unleash the Power of Gaming with Xbox",
     image: [
       { img: "/images/xbox3.png" },
       { img: "/images/xbox4.png" },
@@ -268,9 +268,9 @@ const products = [
     name: "Kit pad Bulk 10 pack multi colored",
     image: [
       { img: "/images/kit2.jpg" },
-      { img: "/images/kit1.png" },
       { img: "/images/kit2.jpg" },
-      { img: "/images/kit1.png" },
+      { img: "/images/kit2.jpg" },
+      { img: "/images/kit2.jpg" },
     ],
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
     Lorem Ipsum has been the industry's standard dummy 
