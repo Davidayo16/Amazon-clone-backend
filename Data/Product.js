@@ -265,7 +265,7 @@ const products = [
   },
 
   {
-    name: "Kit pad Bulk 10 pack multi colored",
+    name: "Elevate Gaming: Find Ultimate Game Kit Today",
     image: [
       { img: "/images/kit2.jpg" },
       { img: "/images/kit2.jpg" },
