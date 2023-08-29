@@ -19,8 +19,9 @@ productRoute.get('/', asyncHandler(async (req, res) => {
      if (req.query.keyword) {
        const searchField = req.query.keyword;
        queryObj.$or = [
-         { name: { $regex: searchField, $options: 'i' } }, // Replace 'field1' with the appropriate field to search in
-         { brand: { $regex: searchField, $options: 'i' } }, // Replace 'field2' with the appropriate field to search in
+         { position: { $regex: searchField, $options: "i" } }, // Replace 'field1' with the appropriate field to search in
+         { company: { $regex: searchField, $options: "i" } },
+         { location: { $regex: searchField, $options: "i" } }, // Replace 'field2' with the appropriate field to search in
          // Add more fields to search in, if needed
        ];
      }
