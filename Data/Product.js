@@ -26,7 +26,9 @@ const products = [
       Sound: "Loud",
       connectivity: "dual",
     },
+    expiryDate: "2024-03-15", // Example expiry date
   },
+
   {
     name: "Experience Next-Gen Gaming with PlayStation 5",
     image: [
@@ -54,6 +56,7 @@ const products = [
       Audio: "3D Audio Technology",
       Screen: "4K and HDR Supporty",
     },
+    expiryDate: "2024-04-15",
   },
   {
     name: "Ultimate Sound: Headphones for Immersive Audio",
@@ -82,6 +85,7 @@ const products = [
       Audio: "3D Audio Technology",
       Screen: "4K and HDR Supporty",
     },
+    expiryDate: "2024-04-15",
   },
 
   {
@@ -110,7 +114,9 @@ const products = [
       Audio: "3D Audio Technology",
       Screen: "4K and HDR Supporty",
     },
+    expiryDate: "2024-03-30",
   },
+
   {
     name: "Elevate Gaming: Find Ultimate Game Kit Today.",
     image: [
@@ -135,7 +141,9 @@ const products = [
       colour: "multi-colored",
       Ram: "5gb",
     },
+    expiryDate: "2024-04-15",
   },
+
   {
     name: "Unleash the Power of Gaming with Xbox",
     image: [
@@ -160,6 +168,7 @@ const products = [
       colour: "white",
       Ram: "5gb",
     },
+    expiryDate: "2024-04-15",
   },
   {
     name: "Unleash the Power of Gaming with Xbox",
@@ -185,6 +194,7 @@ const products = [
       colour: "white",
       Ram: "5gb",
     },
+    expiryDate: "2024-04-17",
   },
   {
     name: "Unleash the Power of Gaming with Xbox",
@@ -211,6 +221,7 @@ const products = [
       colour: "white",
       Ram: "5gb",
     },
+    expiryDate: "2024-04-17",
   },
   {
     name: "Unleash the Power of Gaming with Xbox",
@@ -237,6 +248,7 @@ const products = [
       colour: "white",
       Ram: "5gb",
     },
+    expiryDate: "2024-04-17",
   },
   {
     name: "Gaming pad Bulk 10 pack multi colored",
@@ -262,6 +274,7 @@ const products = [
       colour: "white",
       Ram: "5gb",
     },
+    expiryDate: "2024-04-17",
   },
 
   {
@@ -289,6 +302,7 @@ const products = [
       colour: "white",
       Ram: "5gb",
     },
+    expiryDate: "2024-03-30",
   },
   {
     name: "Effortless Data Transfer: Explore Our USB Solutions",
@@ -315,6 +329,7 @@ const products = [
       colour: "white",
       Ram: "5gb",
     },
+    expiryDate: "2024-04-18",
   },
   {
     name: "PES 5: Experience the Ultimate Soccer Game",
@@ -342,6 +357,7 @@ const products = [
       Audio: "3D Audio Technology",
       Screen: "4K and HDR Supporty",
     },
+    expiryDate: "2024-04-18",
   },
 
   {
@@ -367,6 +383,7 @@ const products = [
       colour: "multi-colored",
       type: "shorts",
     },
+    expiryDate: "2024-04-17",
   },
   {
     name: "Cool Style: Explore Our Trendy Shorts Collection.",
@@ -392,6 +409,7 @@ const products = [
       colour: "multi-colored",
       type: "shorts",
     },
+    expiryDate: "2024-04-15",
   },
   {
     name: "Style & Comfort: Explore Premium Shirt Collection",
@@ -416,6 +434,7 @@ const products = [
       Color: "Black",
       Brand: "Gucci",
     },
+    expiryDate: "2024-03-30",
   },
 
   {
@@ -442,6 +461,7 @@ const products = [
       Color: "Gray",
       Brand: "Dior",
     },
+    expiryDate: "2024-03-30",
   },
 ];
 export default products;

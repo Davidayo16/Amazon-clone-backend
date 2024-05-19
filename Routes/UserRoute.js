@@ -10,7 +10,7 @@ const userRoute = express.Router();
 userRoute.post(
   "/register",
   asyncHandler(async (req, res) => {
-    const { email, password, name, comfirmPassword } = req.body;
+    const { email, password, comfirmPassword } = req.body;
     console.log(req.body);
     if (!email || !password || !name) {
       res.status(400);
